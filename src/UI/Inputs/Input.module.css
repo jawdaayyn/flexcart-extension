@@ -1,0 +1,15 @@
+.input_group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  color: #4f5e69;
+}
+
+.input_group input {
+  border-radius: 12px;
+  background: #f9f9f9;
+  border: none;
+  outline: none;
+  padding: 2.5%;
+  margin-top: 2%;
+}

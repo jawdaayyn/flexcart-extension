@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+
+.Home {
+  background: #ffffff;
+  color: #afafaf;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  border-radius: 12px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Home h1 {
+  font-size: 20px;
+  text-align: center;
+}

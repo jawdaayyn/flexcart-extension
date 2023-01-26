@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+
+.Menu {
+  background: #ffffff;
+  color: #afafaf;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  border-radius: 12px;
+  font-size: 15px;
+  flex-direction: column;
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: #afafaf;
+}
+.Menu h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 3px 0;
+}
+
+.Menu-nav__item {
+  display: flex;
+  align-items: center;
+}
+.Menu-nav__item:hover {
+  color: #4f5e69;
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+
+.Cart {
+  background: #ffffff;
+  color: #afafaf;
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+  border-radius: 12px;
+  padding-bottom: 8%;
+}
+.Cart h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.Cart-content {
+  display: flex;
+  flex-direction: column;
+  color: #4f5e69;
+}
+
+.Cart-content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 0;
+}
+
+.Cart-content-center span {
+  color: #afafaf;
+  font-size: 11px;
+}
+
+.btn-group {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  gap: 0 3%;
+  margin-top: 10%;
+}
+
+.label-file {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-file {
+  display: none;
+}

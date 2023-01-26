@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+
+.Auth {
+  background: #ffffff;
+  color: #afafaf;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  border-radius: 12px;
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+
+.Auth h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Auth__btn__group {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  gap: 0 3%;
+  margin-top: 5%;
+}

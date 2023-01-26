@@ -1,0 +1,22 @@
+{
+  "name": "FlexCart",
+  "description": "Suivre mon shopping",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Ouvrir l'extension FlexCart"
+  },
+  "permissions": ["activeTab", "tabs"],
+  "icons": {
+    "16": "./assets/favicon-16x16.png",
+    "48": "./assets/favicon-32x32.png",
+    "128": "./assets/favicon-128x128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["./static/js/content.js"]
+    }
+  ]
+}
